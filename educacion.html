@@ -1,1 +1,111 @@
-educacion
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="autor" content="Paula Hermida">
+	<meta name="keywords" content="Paula Hermida. Fundamentos de HTML. Desarrollo Web.">
+	<meta name="description" content="Evaluación Final. Fundamentos de HTML.">
+	<title>Fundamentos de HTML. Evaluación Final. Paula Hermida.</title>
+</head>
+
+<body>
+	<svg width="333px" height="172px" viewbox="0 0 333 172">
+		<image xlink:href="svg/logo.svg" width="333px" height="172px"></image>
+	</svg>
+
+	<header>
+		<h1>Hoja de Vida</h1>
+	</header>
+	
+	<h2>Datos Personales</h2>
+
+	<h3>Nombre: Paula Hermida<br>
+		Nacionalidad: Argentina<br>
+		Fecha de nacimiento: 13 de mayo de 1982</h3>
+	
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="educacion.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+
+	<h2>Educación</h2>
+	
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1999</td>
+					<td>Westminster</td>
+					<td>Buenos Aires</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2006</td>
+					<td>UAI</td>
+					<td>Buenos Aires</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2008</td>
+					<td>UAI</td>
+					<td>Buenos Aires</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+	</table>
+
+	<br>
+
+	<form action="" name="Agregar estudios">
+	
+		<legend><h2>Agregar estudios</strong></h2></legend>
+
+		<p><strong><label for="ano">Año</label></strong>
+		<select name="ano" id="ano">
+			<option value="2017">2017</option>
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+		</select>
+		</p>
+
+		<p><strong><label for="institucion">Institución</label></strong>
+   		<input type="text" name="institucion" id="institucion" required></p>
+
+   		<p><strong><label for="lugar">Lugar</label></strong>
+		<textarea name="lugar" id="lugar" cols="25" rows="2"></textarea></p>
+
+
+      	<p><label for="culmino">¿Culminó?</label>
+		<input type="radio" name="culmino" id="culmino" value="si">Si
+		<input type="radio" name="culmino" id="culmino" value="no">No</p>
+
+   		<input type="submit" name="submit">
+
+		
+	</form>
+
+
+
+
+
+	
+
+	<footer>
+		<p>
+		<a href="mailto:hermida.pau@gmail.com">Correo electrónico</a><br>
+		Teléfono: (54 9 011) 153.514.0690<br>
+		Dirección: Buenos Aires, Argentina
+		</p>
+	</footer>
+	
+</body>
+</html>
